@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #e3d9c6;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0px auto;
+   
+   
+}
+
+.hero {
+    height: 800px;
+    background-image: url(/images/nathan-dumlao-r-KfktlyBL0-unsplash.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-wrapper {
+    border: 2px solid white;
+    height: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    color: white;
+   
+}
+
+.hamburger {
+    display: none;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li  {
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 20px 30px;
+}
